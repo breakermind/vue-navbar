@@ -1,6 +1,7 @@
-# Vue 3 navbar component
+# Vue-navbar
+Vue 3 client panel left navbar component.
 
-## Component placed in directory
+## Component directory
 ```sh
 src/views/Navbar
 ```
