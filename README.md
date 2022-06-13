@@ -1,5 +1,5 @@
 # Vue-navbar
-Vue 3 client panel left navbar component.
+Vue 3 client panel left navbar component (RWD).
 
 ## Component directory
 ```sh
