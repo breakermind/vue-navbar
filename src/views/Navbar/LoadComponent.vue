@@ -5,7 +5,11 @@ import { useNavbarStore } from "./store/navbar.js";
 export default {
 	name: "LoadComponent",
 	props: {
-		name: { type: String, required: true, default: "./pages/HomePage.vue" },
+		name: {
+			type: String,
+			required: true,
+			default: "../pages/HomePage.vue",
+		},
 	},
 	components: {},
 	data() {

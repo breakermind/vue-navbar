@@ -122,6 +122,10 @@ export default {
 	color: #f60 !important;
 }
 
+.router-link-exact-active {
+	background: #ffffff11;
+}
+
 @media all and (max-width: 1024px) {
 }
 </style>
