@@ -1,10 +1,12 @@
 <script>
 import { RouterLink } from "vue-router";
 import { useNavbarStore } from "./store/navbar";
+import Links from "./Links.vue";
 
 export default {
 	components: {
 		RouterLink,
+		Links,
 	},
 	data() {
 		return {
@@ -39,17 +41,7 @@ export default {
 			</div>
 		</div>
 		<div class="links">
-			<div class="title">DASHBOARD</div>
-
-			<nav>
-				<RouterLink to="/">
-					<i class="fas fa-dot-circle"></i> Homepage
-				</RouterLink>
-
-				<RouterLink to="/about">
-					<i class="fas fa-dot-circle"></i> About
-				</RouterLink>
-			</nav>
+			<Links />
 		</div>
 	</div>
 </template>
