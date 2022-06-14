@@ -32,6 +32,8 @@ export default {
 		}"
 	>
 		<div class="buttons">
+			<img src="@/assets/logo.svg" id="navbar-logo">
+
 			<div
 				id="close-navbar-btn"
 				@click="this.navbar.toggle()"
@@ -53,13 +55,13 @@ export default {
 	width: 300px;
 	height: 100vh;
 	color: #fff;
-	background: #003399;
+	background: #35495e;
 	z-index: 1;
 }
 
 #rightbar {
 	padding-left: 300px;
-	color: #003399;
+	color: #35495e;
 }
 
 .navbar-closed {
@@ -68,6 +70,12 @@ export default {
 
 #navbar .links {
 	padding: 20px;
+}
+
+#navbar-logo {
+	float: left;
+	height: 30px;
+	margin: 20px;
 }
 
 .content {
@@ -79,7 +87,7 @@ export default {
 }
 
 .navbar-full {
-	box-shadow: 0px 1px 100px #003399;
+	box-shadow: 0px 1px 100px #35495e;
 }
 
 #rightbar-toggle-btn {
@@ -90,10 +98,14 @@ export default {
 #close-navbar-btn {
 	display: none;
 	float: right;
-	padding: 10px 15px;
-	margin-right: 10px;
-	color: #003399;
-	background: #fff;
+	width: 30px;
+	height: 30px;
+	margin: 20px;
+	color: #fff;
+	background: #42b883;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 30px;
 	cursor: pointer;
 }
 
@@ -123,7 +135,7 @@ export default {
 }
 
 .router-link-exact-active {
-	background: #ffffff11;
+	background: #42b883;
 }
 
 @media all and (max-width: 1024px) {
